@@ -19,20 +19,6 @@
            "openSensorValue": 1,
            "pollInMs": 4000,
            "opensInSeconds": 10
-       },
-	   {
-           "accessory": "GarageGateOpenerHomeB",
-           "name": "Gate",
-           "switchPin": 16,
-           "switchPressTimeInMs": 1000,
-           "switchValue": 1,
-           "closedSensorPin": 20,
-           "closedSensorValue": 1,
-           "openSensorPin": 21,
-           "openSensorValue": 1,
-           "pollInMs": 4000,
-           "opensInSeconds": 10
        }
-	   
    ]
 }
