@@ -1,0 +1,37 @@
+{
+  "name": "garage-gate-opener-homebridge",
+  "version": "0.0.1",
+  "description": "Exposes a garage door and/or a Gate accessory to HomeBridge that uses a RaspberryPi GPIO pins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homebridge-plugin",
+	"plugin",
+    "homebridge",
+    "ggopener",
+    "gateopener",
+	"garageopener",
+    "gate",
+	"garage",
+    "opener"
+  ],
+  "author": "Ben La Monica, adapted by Max Forge <mforgem@gmail.com> (http://mforge.org)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MForge/garage-gate-opener-homebridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MForge/garage-gate-opener-homebridge/issues"
+  },
+  "homepage": "https://github.com/MForge/garage-gate-opener-homebridge",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "rpio": "^0.9.13"
+  }
+}

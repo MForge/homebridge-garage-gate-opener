@@ -1,0 +1,38 @@
+​{
+    "bridge": {
+        "name": "Homebridge_MForge",
+        "username": "A1:BC:94:F1:FF:01",
+        "port": 52460,
+        "pin": "131-55-254"
+    },
+
+    "accessories": [
+       {
+           "accessory": "GarageGateOpenerHomeB",
+           "name": "Garage Door",
+           "switchPin": 23,
+           "switchPressTimeInMs": 1000,
+           "switchValue": 1,
+           "closedSensorPin": 24,
+           "closedSensorValue": 1,
+           "openSensorPin": 25,
+           "openSensorValue": 1,
+           "pollInMs": 4000,
+           "opensInSeconds": 10
+       },
+	   {
+           "accessory": "GarageGateOpenerHomeB",
+           "name": "Gate",
+           "switchPin": 16,
+           "switchPressTimeInMs": 1000,
+           "switchValue": 1,
+           "closedSensorPin": 20,
+           "closedSensorValue": 1,
+           "openSensorPin": 21,
+           "openSensorValue": 1,
+           "pollInMs": 4000,
+           "opensInSeconds": 10
+       }
+	   
+   ]
+}
