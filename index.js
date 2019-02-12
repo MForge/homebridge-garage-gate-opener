@@ -8,7 +8,7 @@ module.exports = function(homebridge) {
   Characteristic = homebridge.hap.Characteristic;
   DoorState = homebridge.hap.Characteristic.CurrentDoorState;
 
-  homebridge.registerAccessory("garage-gate-opener-homebridge", "GarageGateOpenerHomeB", GarageGateOpenerHomeBAccessory);
+  homebridge.registerAccessory("garage-gate-opener-homebridge", "GarageGateOpener", GarageGateOpenerHomeBAccessory);
 }
 
 function getVal(config, key, defaultVal) {
