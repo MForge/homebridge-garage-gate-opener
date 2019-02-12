@@ -7,7 +7,7 @@
 	},
 
 	"accessories": [{
-			"accessory": "GarageGateOpenerHomeB",
+			"accessory": "GarageGateOpener",
 			"name": "Garage",
 			"switchPin": 23,
 			"switchPressTimeInMs": 1000,
@@ -20,7 +20,7 @@
 			"opensInSeconds": 10
 		},
 		{
-			"accessory": "GarageGateOpenerHomeB",
+			"accessory": "GarageGateOpener",
 			"name": "Gate",
 			"switchPin": 16,
 			"switchPressTimeInMs": 1000,
